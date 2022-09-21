@@ -216,9 +216,9 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(./img/suret.jpg);
 	background-size: cover;
-	background-position: top center;
+	background-position: center;
 	position: relative;
 	z-index: 1;
 }
