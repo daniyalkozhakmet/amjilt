@@ -300,6 +300,8 @@ p {
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
+	height: 600px;
+
 
 }
 #services .service-item {
@@ -316,7 +318,7 @@ p {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
-	height: 500px;
+	height: 100%;
 }
 #services .service-item ul{
 	margin: 10px;
@@ -650,7 +652,26 @@ p {
 	}
 }
 /* End Keyframes */
-
+@media screen and (max-width:768px) and (min-width:0px)  {
+	#about .about {
+		margin-top: 500px;
+	}
+	.about-2{
+		margin-top: -400px;
+	}
+	#services .service-top {
+		max-width: 90%;
+		margin: 0 auto;
+	}
+	.about ul,.school-dist{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		text-align: start;
+	}
+	
+}
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
